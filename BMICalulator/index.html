@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="style.css" rel="stylesheet">
     <title>BMI Calculator</title>
 </head>
 <body>
-    
+    <h2>Welcome To BMI Calculator</h2>
+    <form>
+        <label>Enter your Heigh(in cm)</label>
+        <input id="height" type="text" placeholder="Enter Heigh">
+        <label>Enter your Weight(in Kg)</label>
+        <input id="weight" type="text" placeholder="Enter Weight">
+        <!--<label id="result">result</label>-->
+        <div id="result"></div>
+        <button type="submit">Calculate</button>
+    </form>
+    <div class="guide">
+        <h3>If your BMI is: </h3>
+        <ul>
+            <li class="lst">below 18.5 - you're in the underweight range</li>
+            <li class="lst">between 18.5 and 24.9 - you're in the healthy weight range</li>
+            <li class="lst">between 25 and 29.9 - you're in the overweight range</li>
+            <li class="lst">30 or over - you're in the obese range</li>
+        </ul>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
