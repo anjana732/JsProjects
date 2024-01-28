@@ -79,6 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
             playGame = true;
             prevGuess.innerHTML = '';
             remGuess.innerHTML = `${11-attempt}`;
+            result.innerHTML ='';
             playGame = true;
             userInput.removeAttribute('disabled');
             newGame.removeChild(b);
