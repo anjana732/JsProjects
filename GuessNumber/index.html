@@ -9,15 +9,17 @@
 </head>
 <body>
     <h2>Number Guessing Game</h2>
-    <p>Try Guessing a random number between 1 and 100</p>
-    <P>You have 10 attempts to guess the right number</P>
+    <p class="p1">Try Guessing a random number between 1 and 100</p>
+    <P class="p2">You have 10 attempts to guess the right number</P>
     <h1>Guess a number</h1>
     <form>
         <input type="text" id="guess" placeholder="Enter your number">
         <button type="submit">Submit Guess</button>
     </form>
-    <p id="prevGuess">Previous Guesses : </p>
-    <p id="remGuess">Guesses Remaining : </p>
+    <p class="para">Status: <span id="result"></span></p>
+    <p class="para">Previous Guesses : <span id="prevGuess"></span></p>
+    <p class="para">Guesses Remaining : <span id="remGuess"></span></p>
+    <p id="newGame"></p>
     <script src="index.js"></script>
 </body>
 </html>
