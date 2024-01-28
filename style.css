@@ -1,4 +1,46 @@
-body{
+
+body {
     background-color: #212121;
     color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Make the main content take the available space */
+}
+
+.main a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border: 2px solid white;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: aliceblue;
+    width: 40%;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.icon {
+    color: aliceblue;
+    font-size: 30px;
+    margin: 12px;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+    background-color: #333; /* Optional: Add a background color for the footer */
+    color: #fff; /* Optional: Set text color for the footer */
+    padding: 10px;
 }
