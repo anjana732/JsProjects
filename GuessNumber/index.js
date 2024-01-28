@@ -1,6 +1,6 @@
 console.log("Script loaded");
 document.addEventListener('DOMContentLoaded', () => {
-    const random = parseInt((Math.random() * 100) + 1);
+    let random = parseInt((Math.random() * 100) + 1);
     console.log(random);
     const form = document.querySelector('form');
     const prevGuess = document.getElementById('prevGuess');
@@ -69,11 +69,12 @@ document.addEventListener('DOMContentLoaded', () => {
         newGame.appendChild(b);
         startGame();
 
-
     }
     function startGame(){
         const newGameButton = document.querySelector('#newGame')
         newGameButton.addEventListener('click',(e) => {
+            random = parseInt((Math.random() * 100) + 1);
+            console.log(random);
             attempt = 1;
             preGuess = []; 
             playGame = true;
