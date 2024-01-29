@@ -44,3 +44,20 @@ footer {
     color: #fff; /* Optional: Set text color for the footer */
     padding: 10px;
 }
+@media (min-width: 768px) {
+    .main a {
+        width: 30%;
+    }
+}
+
+/* Media Query for Desktops and larger screens */
+/*@media (min-width: 1024px) {
+    .main {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .main a {
+        width: 20%;
+    }
+}*/
