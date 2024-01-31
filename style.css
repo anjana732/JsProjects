@@ -4,14 +4,14 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+    min-height: 100vh; 
     margin: 0;
 }
 
 .main {
     display: flex;
     flex-direction: column;
-    flex: 1; /* Make the main content take the available space */
+    flex: 1; 
 }
 
 .main a {
@@ -23,7 +23,7 @@ body {
     padding: 7px;
     border-radius: 7px;
     background-color: aliceblue;
-    width: 40%;
+    width: 80%;
 }
 
 h2 {
@@ -40,8 +40,8 @@ h2 {
 footer {
     align-items: center;
     text-align: center;
-    background-color: #333; /* Optional: Add a background color for the footer */
-    color: #fff; /* Optional: Set text color for the footer */
+    background-color: #333; 
+    color: #fff; 
     padding: 10px;
 }
 @media (min-width: 768px) {
