@@ -1,0 +1,29 @@
+body{
+    background-color: #212121;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin-top: 40px;
+    font-size: 40px;
+}
+.design {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.design th, .design td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.design th {
+    background-color: #817d7d;
+}
